@@ -1,0 +1,30 @@
+
+
+	BEGIN mainprogram  
+	END mainprogram 
+
+for binary selection 
+	IF condition THEN
+	statements
+	ELSE 
+	statements 
+	ENDIF 
+for multi-way selection 
+	CASEWHERE expression evaluates to 
+	A:process A 
+	B: process B 
+	OTHERWISE: process 
+	ENDCASE 
+for pre-test repetition 
+	REPEAT 
+	statements 
+	ENDWHILE 
+for post-test repetition 
+	REPEAT
+	statements 
+	UNTIL condition
+For FOR/NEXT loops 
+	FOR variable start TO finish STEP increment 
+	statements
+	NEXT variable  
+	  
